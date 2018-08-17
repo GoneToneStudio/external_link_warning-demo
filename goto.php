@@ -1,7 +1,7 @@
 <?php
-$url = $_GET["url"];
+$url = $_GET["url"]; //取得目標網址
 
-if ($url == Null) {
+if ($url == Null) { //如果目標網址不存在
     //header('Location: /');
     echo '<h1>$_GET["url"] is null.</h1>';
     exit;
